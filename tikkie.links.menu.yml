@@ -1,0 +1,5 @@
+tikkie.settings:
+  title: 'Tikkie'
+  parent: system.admin_config_services
+  description: 'Tikkie payment status.'
+  route_name: tikkie.status

@@ -1,0 +1,15 @@
+{
+  "name": "drupal/tikkie",
+  "description": "Drupal Tikkie API",
+  "type": "library",
+  "require": {
+    "jarnovanleeuwen/php-tikkie": "^0.2.2"
+  },
+  "license": "GPL2+",
+  "authors": [
+    {
+      "name": "Erik Stielstra",
+      "email": "erik@limoengroen.nl"
+    }
+  ]
+}

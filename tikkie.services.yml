@@ -1,0 +1,7 @@
+services:
+  tikkie.client:
+    class: Drupal\tikkie\TikkieClient
+    arguments: ['@config.factory', '@logger.factory']
+  tikkie.mock_data:
+    class: Drupal\tikkie\TikkieMockData
+    arguments: ['@tikkie.client', '@config.factory']

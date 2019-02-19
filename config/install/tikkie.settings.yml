@@ -1,0 +1,4 @@
+test_mode: false
+consumer_key: ''
+consumer_secret: ''
+private_key_path: '../private_rsa.pem'

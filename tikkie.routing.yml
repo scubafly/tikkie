@@ -1,0 +1,9 @@
+tikkie.status:
+  path: '/admin/config/services/tikkie/status'
+  defaults:
+    _controller: 'Drupal\tikkie\Controller\TikkieStatusController::status'
+    _title: 'Tikkie Status'
+  requirements:
+    _permission: 'administer tikkie'
+  options:
+    _admin_route: TRUE
